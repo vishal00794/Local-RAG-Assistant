@@ -77,3 +77,5 @@ Start the web interface.
 streamlit run step3_ui.py
  ```
 The app will open automatically at http://localhost:8501
+
+![UI](UI_interface.png)
