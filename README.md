@@ -59,3 +59,21 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to g
 ```bash
 git clone [https://github.com/your-username/DocuMind-Compliance-RAG.git](https://github.com/your-username/DocuMind-Compliance-RAG.git)
 cd DocuMind-Compliance-RAG
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+ ```
+### 4. Build the Knowledge Base (One-Time Setup)
+This script parses the PDF and creates the Vector Database.
+```bash
+python step1_retriever_local.py
+ ```
+
+### 5. Launch the Application
+Start the web interface.
+```bash
+streamlit run step3_ui.py
+ ```
+The app will open automatically at http://localhost:8501
